@@ -1,26 +1,32 @@
 html {
-    background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
-    height: 100%;
+    background-color: #1d1a1a;
+    width: 100%;
+    height: auto;
     font-family: 'Roboto', cursive;
 }
-
 .conteudo {
-    padding: 10vh 3em 0;
     display: flex;
-    align-items: flex-start;
-    gap: 2em;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .principal {
     flex-grow: 1;
     flex-basis: auto;
-    min-width: 600px;
-    padding: 4em 2em 2em;
+    width: 355px;
+    padding: 3.3em 2em 2em;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #C5965F;
     border-radius: 10px;
     gap: 2em;
+    text-align: center;
 }
   
 .mochila {
@@ -101,7 +107,8 @@ html {
 }
 
 .lista {
-    margin: 0;
+    width: 355px;
+    margin: 20px 0px 0px 0px;
     padding: 0;
 }
 
@@ -113,8 +120,9 @@ html {
     margin: 0 0 1em;
     width: 100%;
     box-sizing: border-box;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1em;
     font-size: 20px;
 }
